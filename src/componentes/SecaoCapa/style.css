@@ -1,0 +1,84 @@
+.secao-capa {
+    background-image: url('/public/assets/truckstopcapa.png');
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.capa {
+    float: left;
+    margin-left: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    color: white;
+}
+
+.texto-capa {
+    margin-top: 100px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 500px;
+    color: white;
+}
+
+.texto-capa h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(255, 238, 218);
+}
+
+.texto-capa p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    margin-right: 60px; 
+}
+
+/*media query*/
+
+@media (max-width: 768px) {
+    .capa {
+        justify-content: flex-start;
+    }
+
+    .texto-capa {
+        margin-left: -50px;
+        margin-top: 160px;
+        max-width: 350px;
+    }
+
+    .texto-capa h1 {
+        font-size: 2rem;
+    }
+
+    .texto-capa p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .capa {
+        background-position: 50%;
+    }
+    .texto-capa {
+        margin-left:-50px;
+        max-width: 300px;
+    }
+    .texto-capa p {
+        font-size: 20px;
+    }
+    .texto-capa h1 {
+        font-size: 30px;
+    }
+}

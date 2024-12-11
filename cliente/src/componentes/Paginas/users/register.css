@@ -1,0 +1,24 @@
+
+
+.register-form {
+    max-height:100%;
+    background-color: black;
+
+}
+
+.user-management h2 {
+    font-family:"Inter";
+    font-style: italic;
+}
+
+.register-form input{
+    font-family: "Inter";
+    font-style: italic;
+    background-color: rgb(255, 238, 218);
+}
+
+.register-form button {
+    font-family: "Inter";
+    font-style: italic;
+    background-color:#343434;
+}

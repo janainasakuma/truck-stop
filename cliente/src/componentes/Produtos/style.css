@@ -1,0 +1,102 @@
+#produtos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 auto;
+    background-color: BLACK;
+}
+
+.secao-produtos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.secao-produtos p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.titulos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.paragrafo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    margin-bottom: 25px;
+    color: white;
+
+}
+
+.plano-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 50px 0px;
+}
+
+.card-plano picture img {
+    width: 80%;
+    height: auto;
+    max-height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-plano {
+    background-color: #f6f6f6;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #AD9C8C;
+    border-radius: 10px;
+}
+
+.card-plano h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    color: white;
+    font-style:italic;
+}
+
+.card-plano p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 600px;
+    font-size: 1.25rem;
+}
+
+.lista-plano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+}
+
+.lista-plano p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
